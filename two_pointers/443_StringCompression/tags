@@ -5,9 +5,9 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 CXX	Makefile	/^CXX = c++$/;"	m
-CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
 NAME	Makefile	/^NAME = a.out$/;"	m
 OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
 SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+compress	main.cpp	/^int compress(vector<char>& chars)$/;"	f
 main	main.cpp	/^int main(void)$/;"	f
-moveZeroes	main.cpp	/^void moveZeroes(vector<int>& nums)$/;"	f

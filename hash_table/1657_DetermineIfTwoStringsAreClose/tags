@@ -5,9 +5,11 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 CXX	Makefile	/^CXX = c++$/;"	m
-CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
 NAME	Makefile	/^NAME = a.out$/;"	m
 OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
 SRCS	Makefile	/^SRCS = main.cpp$/;"	m
-main	main.cpp	/^int main(void)$/;"	f
-moveZeroes	main.cpp	/^void moveZeroes(vector<int>& nums)$/;"	f
+checkSameWord	main.cpp	/^bool checkSameWord(string word1, string word2)$/;"	f
+closeStrings	main.cpp	/^bool closeStrings(string word1, string word2) {$/;"	f
+getContinuousWordLength	main.cpp	/^map<int, int> getContinuousWordLength(string word) {$/;"	f
+main	main.cpp	/^int main(void) {$/;"	f

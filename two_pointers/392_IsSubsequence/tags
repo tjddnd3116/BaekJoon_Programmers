@@ -9,5 +9,5 @@ CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98$/;"	m
 NAME	Makefile	/^NAME = a.out$/;"	m
 OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
 SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+isSubsequence	main.cpp	/^bool isSubsequence(string s, string t)$/;"	f
 main	main.cpp	/^int main(void)$/;"	f
-moveZeroes	main.cpp	/^void moveZeroes(vector<int>& nums)$/;"	f
